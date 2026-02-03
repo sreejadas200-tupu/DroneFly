@@ -1,0 +1,664 @@
+@font-face {
+  font-family: Alexandria;
+  src: url("../assets/font/Alexandria-VariableFont_wght.ttf");
+}
+* {
+  margin: 0 ;
+  padding: 0;
+  box-sizing: border-box;
+}
+body,
+html {
+  overflow-x: hidden;
+}
+:root {
+  --nav-link-color: #6b6b6b;
+  --primary-color: #9acc20;
+  --Alexandria: Alexandria;
+  --heading-color: #242424;
+  --paragraph-color: #464646;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+.nav-container {
+  max-width: 1283px !important;
+}
+
+.container {
+  max-width: 1170px;
+}
+.title1 {
+  color: #ffffff;
+  font-size: 140px;
+  font-weight: bold;
+  font-family: var(--Alexandria);
+}
+.title2 {
+  color: var(--heading-color);
+  font-size: 40px;
+  font-weight: 500;
+  font-family: var(--Alexandria);
+}
+.title3 {
+  font-size: 150px;
+  font-weight: bold;
+  font-family: "Arial";
+  text-align: center;
+  background: linear-gradient(to bottom, #c6c6c6, #686868);
+  opacity: 75%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.title4 {
+  font-size: 24px;
+  font-family: var(--Alexandria);
+}
+.title5 {
+  font-size: 24px;
+  font-weight: 500;
+  font-family: var(--Alexandria);
+}
+
+p {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Arial";
+  color: var(--nav-link-color);
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+.col-7 {
+  width: calc(7 * 8.33%);
+  padding: 0 15px;
+}
+.col-8 {
+  width: calc(8 * 8.33%);
+  padding: 0 15px;
+}
+.col-5 {
+  width: calc(5 * 8.33%);
+  padding: 0 15px;
+}
+.col-4 {
+  width: calc(4 * 8.33%);
+  padding: 0 15px;
+}
+.col-3 {
+  width: calc(3 * 8.33%);
+  padding: 0 15px;
+}
+.col-2 {
+  width: calc(2 * 8.33%);
+  padding: 0 15px;
+}
+
+/* HEADER SECTION */
+.hdr-sec {
+  padding: 15px 0;
+}
+.nav-item {
+  margin-right: 50px;
+}
+.active {
+  color: var(--primary-color) !important;
+}
+
+.nav-link {
+  color: var(--nav-link-color);
+  font-family: "Arial";
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  color: var(--primary-color);
+}
+.tertiary-btn {
+  border: 1px solid var(--primary-color);
+  border-radius: 10px;
+  font-family: "Arial";
+  font-weight: bold;
+  color: var(--primary-color);
+  padding: 14px 35.5px;
+  margin-right: 15px;
+}
+
+.primary-btn {
+  padding: 14.5px 30.5px;
+  border-radius: 10px;
+  background: var(--primary-color);
+  color: #ffffff;
+  font-family: "Arial";
+  font-weight: bold;
+}
+
+/* BANNER SECTION */
+
+.bnr-sec {
+  background: url("../assets/banner-img-bg.png") no-repeat center/cover;
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bnr-text {
+  position: relative;
+}
+.bnr-cntn {
+  margin: 0 auto;
+  text-align: center;
+}
+.bnr-img-front {
+  max-width: 692px;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.bnr-img-front > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.outline-text {
+  font-size: 140px;
+  font-family: var(--Alexandria);
+  font-weight: 600;
+  color: transparent;
+  -webkit-text-stroke: 2px white; /* outline text */
+  letter-spacing: 1px;
+}
+
+/*  Welcome To Drone Fly section */
+
+.Welcome-DroneFly-sec {
+  padding: 100px 0;
+}
+
+.col-7 p {
+  margin: 38px 0;
+}
+
+.welcome-card {
+  max-width: 482px;
+}
+
+.welcome-card > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/*  Our Featured Drones  */
+
+.featured-cntn {
+  text-align: center;
+}
+
+.featured-cntn p {
+  max-width: 572px;
+  margin: 0 auto;
+}
+.featured-cntn .title2 {
+  margin-bottom: 19px;
+}
+.col-4 .title5 {
+  margin: 44px 0 20px;
+}
+.featured-text span {
+  display: flex;
+  justify-content: end;
+  align-items: start;
+}
+.amount {
+  margin-bottom: 39px;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: "Arial";
+  color: #383838;
+}
+
+.featured-card {
+  max-width: 367px;
+  margin-top: 50px;
+}
+
+.featured-card > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* NEW EDITION SECTION */
+
+.new-edition-sec {
+  padding: 100px 0;
+  background: url("../assets/new-edition-bg.png") no-repeat center/cover;
+}
+
+.title3 {
+  margin-bottom: 12px;
+}
+.drone-img {
+  margin: auto;
+  max-width: 888px;
+  margin-bottom: 32px;
+}
+
+.drone-img > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.btn > .tertiary-btn {
+  margin-right: 0;
+}
+
+/* Our Professional Drone Pilots */
+
+.professional-pilots-sec {
+  padding: 100px 0;
+  background: url("../assets/pilot-bg.png") no-repeat center/cover;
+}
+
+.pilot-cntn {
+  text-align: center;
+}
+.pilot-cntn .title2 {
+  margin-bottom: 20px;
+}
+
+.pilot-card {
+  max-width: 367px;
+  border-bottom-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+.pilot-card > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.pilot-text span {
+  display: flex;
+  justify-content: end;
+  align-items: start;
+}
+
+/* HOW IT WORKS Section */
+
+/* Our Successful Works Section */
+
+.Our-Successful-Works-sec {
+  padding: 100px 0;
+  background: url("../assets/successful-work-bg.png") no-repeat center;
+  min-height: 50vh;
+}
+.our-works-cntn .title2 {
+  text-align: center;
+}
+.our-work-video {
+  width: 893px;
+  margin: 0 auto;
+  position: relative;
+}
+.our-work-video > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.video-btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 63px;
+  height: 63px;
+}
+
+/*  Frequently Asked Questions */
+
+.faq-sec {
+  padding: 100px 0;
+}
+.faq-cntn {
+  text-align: center;
+}
+.faq-cntn p {
+  margin: 13px 0 53px;
+}
+
+/* Our Clients Testimonials */
+
+.testimonials-sec {
+  padding: 100px 0;
+}
+
+.review-card {
+  max-width: 611px;
+  background: #e6f2c9;
+  border-radius: 15px;
+  padding: 15px 52px 30px 35px;
+  margin-bottom: 22px;
+}
+.review-card > p {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Arial";
+}
+.side {
+  margin-left: auto;
+}
+.right-side-cntn .title4 {
+  margin-bottom: 26px;
+}
+.right-side-cntn p {
+  line-height: 29px;
+  font-weight: 400;
+  font-family: "Arial";
+}
+
+/* FOOTER-SECTION */
+
+.footer-sec {
+  padding: 50px 0;
+  background: #3d5306;
+  min-height: 80vh;
+}
+.ftr-cntn p {
+  line-height: 28px;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Arial";
+  color: #f5ebeb;
+  margin-top: 37px;
+}
+/* .ftr-link {
+  margin: 0 !important;
+} */
+.ftr-link li {
+  margin-bottom: 15px;
+}
+.ftr-contact span {
+  margin-left: 20px;
+  color: #f1f1f1;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Arial";
+}
+.ftr-heading {
+  font-size: 32px;
+  font-weight: bold;
+  font-family: "Arial";
+  color: #f1f1f1;
+  margin-bottom: 37px;
+}
+.ftr-link li > a {
+  color: #f1f1f1;
+}
+.last-col p{
+  color: #f1f1f1;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Arial";
+}
+
+#useremail{
+  width: 100%;
+  border-radius: 7px;
+  border: none;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(20px);
+    border: 1px solid #ffffff;
+    color: #FCF1F1;
+    padding: 7.5px 0 7.5px 27px;
+    margin-bottom: 12px;
+}
+
+.subscribe-btn{
+  background: var(--primary-color);
+  color: #000;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 0;
+  width: 100%;
+}
+
+.line{
+  width: 1140px;
+  height: 0.8px;
+  margin-top: 50px;
+  margin-bottom: 17px;
+  background: #C9C9C9;
+}
+
+.footer-down{
+  text-align: center;
+}
+.footer-down span{
+  color: #f1f1f1;
+  font-size: 12px;
+  font-weight: 400;
+  font-family: "Arial";
+}
+.footer-down>span>a{
+  margin-left: 30px;
+}
+
+.ftr-link li a{
+  transition: 0.5s linear !important;
+}
+.ftr-link li a:hover {
+  transform: scale(1.3) !important;
+}
+
+.offcanvas {
+  flex-direction: row;
+  align-items: center;
+}
+@media screen and (max-width: 1200px) {
+  .offcanvas {
+    flex-direction: column;
+    background: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(20px);
+    /* padding-top: 173px; */
+  }
+
+  .navbar-toggler {
+    margin-left: auto;
+    padding: 0;
+    display: flex;
+    position: relative;
+    z-index: 999;
+  }
+
+  .navbar-toggler > span {
+    background: none;
+    height: 2px;
+    width: 30px;
+    background: var(--primary-color);
+  }
+
+  .navbar-toggler::after,
+  .navbar-toggler::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    background: var(--primary-color);
+    height: 2px;
+    top: 0;
+  }
+
+  .navbar-toggler::before {
+    top: 7px;
+  }
+
+  .navbar-toggler::after {
+    top: -7px;
+  }
+}
+
+@media screen and (max-width:1115px){
+  .col-3, .col-2{
+    width: 50%;
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .title3 {
+    font-size: 100px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .our-work-video {
+    max-width: 600px;
+  }
+  .bnr-img-front > img {
+    max-width: 600px;
+  }
+  .outline-text,
+  .title1 {
+    font-size: 100px;
+  }
+}
+@media screen and (max-width: 768px) {
+  /* Welcome To Drone Fly section */
+
+  .Welcome-DroneFly-sec .row {
+    flex-wrap: wrap-reverse;
+  }
+
+  .col-7 {
+    width: 100%;
+  }
+  .col-5 {
+    width: 100%;
+  }
+
+  .welcome-card {
+    margin: 0 auto;
+  }
+  .Welcome-DroneFly-sec .title2 {
+    margin-top: 10px;
+  }
+
+  .col-4 {
+    width: 100%;
+  }
+  .featured-card {
+    margin: auto;
+  }
+
+  .col-7 p {
+    margin: 25px 0;
+  }
+
+  .featured-cntn p {
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+  .title3 {
+    font-size: 70px;
+  }
+
+  .btn > .tertiary-btn {
+    padding-inline: 23px;
+  }
+
+  .col-4 .title5 {
+    margin: 20px 0 18px;
+  }
+  .title5 {
+    font-size: 21px;
+  }
+  .amount {
+    margin-bottom: 26px;
+    font-size: 20px;
+  }
+
+  .pilot-card {
+    margin: auto;
+  }
+  .col-8 {
+    width: 100%;
+  }
+  .left-side-cntn {
+    margin: auto;
+  }
+
+  .right-side-cntn .title4 {
+    text-align: center;
+  }
+  .right-side-cntn p {
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  .testimonials-sec .row{
+    flex-wrap: wrap-reverse;
+  }
+}
+@media screen and (max-width: 576px) {
+  .title2 {
+    font-size: 30px;
+  }
+  .title3 {
+    font-size: 50px;
+  }
+  .outline-text,
+  .title1 {
+    font-size: 70px;
+  }
+
+  .col-2 , .col-3{
+    width: 100%;
+  
+  }
+  .footer-up{
+    text-align: center;
+  }
+
+}
+
+@media screen and (max-width: 425px) {
+  .outline-text,
+  .title1 {
+    font-size: 62px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .title2 {
+    font-size: 20px;
+  }
+  .title3 {
+    font-size: 44px;
+  }
+  .outline-text,
+  .title1 {
+    font-size: 50px;
+  }
+  .ftr-cntn p  , .last-col p{
+    font-size: 13px;
+  }
+  .ftr-contact span , .ftr-link li{
+    font-size: 14px ;
+  }
+}
