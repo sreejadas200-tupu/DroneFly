@@ -1,0 +1,27 @@
+@font-face {
+  font-family: Alexandria;
+  src: url("../assets/font/Alexandria-VariableFont_wght.ttf");
+}
+* {
+  margin: 0 ;
+  padding: 0;
+  box-sizing: border-box;
+}
+body,
+html {
+  overflow-x: hidden;
+}
+:root {
+  --nav-link-color: #6b6b6b;
+  --primary-color: #9acc20;
+  --Alexandria: Alexandria;
+  --heading-color: #242424;
+  --paragraph-color: #464646;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+}

@@ -1,0 +1,83 @@
+@font-face {
+  font-family: Alexandria;
+  src: url("../assets/font/Alexandria-VariableFont_wght.ttf");
+}
+:root {
+  --nav-link-color: #6b6b6b;
+  --primary-color: #9acc20;
+  --Alexandria: Alexandria;
+  --heading-color: #242424;
+  --paragraph-color: #464646;
+  --white-color:#ffffff;
+}
+.title1{
+    font-size: 115px;
+    font-weight: 500;
+    font-family: var(--Alexandria);
+    color: #ffffff;
+}
+.title2{
+    font-size: 44px;
+    font-weight: 500;
+    font-family: var(--Alexandria);
+}
+
+.title3{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: var(--Alexandria);
+}
+p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Arial";
+    
+}
+/* HEADER SECTION */
+.hdr-sec {
+  padding: 15px 0;
+}
+.nav-item {
+  margin-right: 50px;
+}
+.active {
+  color: var(--primary-color) !important;
+}
+
+.nav-link {
+  color: var(--nav-link-color);
+  font-family: "Arial";
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  color: var(--primary-color);
+}
+.tertiary-btn {
+  border: 1px solid var(--primary-color);
+  border-radius: 10px;
+  font-family: "Arial";
+  font-weight: bold;
+  color: var(--primary-color);
+  padding: 14px 35.5px;
+  margin-right: 15px;
+}
+
+.primary-btn {
+  padding: 14.5px 30.5px;
+  border-radius: 10px;
+  background: var(--primary-color);
+  color: #ffffff;
+  font-family: "Arial";
+  font-weight: bold;
+}
+
+/*  ABOUT BANNER SECTION  */
+
+.bnr-sec{
+    background: url('../assets/service-bg.png') no-repeat center/cover;
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+}
+
