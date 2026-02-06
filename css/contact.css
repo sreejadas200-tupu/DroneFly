@@ -116,16 +116,31 @@ form {
   padding: 44px 43.5px;
 }
 
-.input-text {
+label{
+  font-size: 18px;
+  font-family: var(--Alexandria);
+  font-weight: 400;
+  color: #444444;
+}
+input , .textarea{
   font-family: "Arial";
   color: #7c7b7b;
   font-weight: 400;
   font-size: 14px;
+  padding: 15.5px 27px;
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  margin-block: 10px;
 }
 .btn {
   background: var(--primary-color);
   margin-top: 43px;
   color: #f1f1f1;
+}
+.btn:hover{
+  background: var(--primary-color);
+  color: #ffffff;
 }
 
 /* FOOTER-SECTION */

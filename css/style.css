@@ -336,23 +336,23 @@ p {
   text-align: center;
 }
 .our-work-video {
-  width: 893px;
+  max-width: 893px;
   margin: 0 auto;
-  position: relative;
+  /* position: relative; */
 }
 .our-work-video > img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
-.video-btn {
+/* .video-btn {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 63px;
   height: 63px;
-}
+} */
 
 /*  Frequently Asked Questions */
 
@@ -467,7 +467,6 @@ p {
 }
 
 .line{
-  width: 1140px;
   height: 0.8px;
   margin-top: 50px;
   margin-bottom: 17px;

@@ -75,64 +75,62 @@ p {
   font-weight: bold;
 }
 
-/* PRODUCT DETAILS SECTION */
-.right-cntn p{
-  line-height: 29px;
-  margin-top: 18px;
-  margin-bottom: 22px;
+/* MY-PROFILE-SECTION */
+
+.green-sidebar{
+    background: #CAF06D;
+    padding: 24px 21px;
+    border-radius: 27px;
 }
-.right-cntn .title5{
-  margin-top: 16px;
+.user-img-card{
+    max-width: 228px;
+    border-radius: 27px;
+    margin: auto;
 }
-.price-list span{
-  
-  font-size: 18px;
-  font-weight: 400;
-  font-family: "Arial";
-  color: var(--heading-color);
-  
+.user-img-card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
-.small-img-card{
-  margin-bottom: 18px;
-}
-.small-img-card > img{
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+.side-bar-cntn{
+    margin: auto;
 }
 
-/* .big-img-card{
-  max-width: 443px;
-} */
+.dash-line{
+    border: 1px dashed #C2C2C2;
 
-.big-img-card > img{
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-.book-btn{
-  padding: 16px 20.5px;
-  background: var(--primary-color);
-  color: #ffffff;
-  border-radius: 10px;
-  margin-bottom: 44px;
-  margin-top: 13px;
-}
-.green-circle{
-  width: 10px;
-  height: 10px;
-  background: var(--primary-color);
-  border-radius: 50%;
-  margin-right: 20px;
-}
-.features-item p{
-margin-top: 16px;
 }
 
-.black-line{
-  height: 0.5px;
-  background: #4D4D4D;
+.pro-details-bg{
+    background: #F2F2F2;
+    border-radius: 21px;
+    padding: 42px 59px 78px 50px;
+    box-shadow:0px 2px 6px 0px rgba(0, 0, 0, 0.25);
+}
+
+input{
+    background: #FEFEFE;
+    border: 1px solid #EFF1E9;
+    border-radius: 10px;
+    padding: 9px 25px;
+    width: 100%;
+    margin-top: 9px;
+    margin-bottom: 20px;
+    color: #6B6B6B;
+}
+label{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Arial";
+    color: #323232;
+}
+.edit-btn{
+    background: var(--primary-color);
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    padding: 16px 17.5px;
 }
 
 /* FOOTER-SECTION */
@@ -299,6 +297,9 @@ margin-top: 16px;
   }
   .footer-up {
     text-align: center;
+  }
+  .title2{
+    font-size: 25px;
   }
 }
 @media screen and (max-width: 375px) {

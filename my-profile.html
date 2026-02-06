@@ -26,9 +26,10 @@
     <link rel="stylesheet" href="./css/global.css" />
 
     <!-- CUSTOM CSS -->
-    <link rel="stylesheet" href="./css/product-details.css" />
+    <link rel="stylesheet" href="./css/my-profile.css" />
 </head>
 <body>
+    
     <!-- HEADER SECTION -->
 
     <header class="hdr-sec">
@@ -71,7 +72,9 @@
             </ul>
 <div class="nav-btn">
               <a class="tertiary-btn" href="./login.html">Log in</a>
-              <a class="primary-btn" href="./signup.html">Sign up</a>
+              <a class="user-profile" href="./my-profile.html">
+                <img src="./assets/user-profile.png" alt="">
+              </a>
             </div>
           </div>
 
@@ -82,132 +85,66 @@
             data-bs-target="#offcanvasExample">
             <span class="navbar-toggler-icon"></span>
           </button>
-          
-            
-            
           </div>
         </div>
       </nav>
     </header>
+            
+            <!-- MY-PROFILE-SECTION -->
 
-    <!-- PRODUCT DETAILS SECTION -->
+            <section class="profile-sec">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <div class="green-sidebar">
+                                <div class="user-img-card">
+                                    <img src="./assets/user-img.png" alt="">
+                                </div>
+                                <div class="side-bar-cntn">
+                                <p>John Doe</p>
+                             <p>john.doe@email.com</p>
+                             <div class="dash-line"></div>
+                            </div>    
+                            <a href="./my-profile.html">
+                                <div>My Profile</div></a>
+                            <a href=""><div>My Booking</div></a>
+                            <a href=""><div>Log out</div></a>
+                                </div>
+                             
+                        </div>
 
-    <section class="product-details-sec">
-        <div class="container">
-            <div class="row">
-              
-        <div class="col-1">
-          <div class="small-img-card">
-            <img src="./assets/product-img-small1.png" alt="">
-          </div>
-          <div class="small-img-card">
-            <img src="./assets/product-img-small2.png" alt="">
-          </div>
-          <div class="small-img-card">
-            <img src="./assets/product-img-small3.png" alt="">
-          </div>
-          <div class="small-img-card">
-            <img src="./assets/product-img-small4.png" alt="">
-          </div>
-        </div>
+                        <div class="col-lg-9">
+                            <div class="content">
+                            <div class="section" id="my-profile">
+                            <div class="pro-details-bg">
+                                <label>Full name</label>
+                                <br>
+                                <input type="text" name="" id="" placeholder="John Doe">
+                                <br>
+                                <label>Email</label>
+                                <br>
+                                <input type="email" name="" id="" placeholder="john.doe@email.com">
+                                <br>
+                                <label>Mobile number</label>
+                                <br>
+                                <input type="text" name="" id="" placeholder="(212)445-7622">
+                                <br>
+                                <label>Address</label>
+                                <br>
+                                <input type="text" name="" id="" placeholder="132 My Street, Kingston, New York">
 
-    <div class=" col-5">
-          <div class="big-img-card">
-            <img src="./assets/product-img-big.png" alt="">
-          </div>
-        </div>
-        
-        
-            <!-- Right: Details -->
-    <div class=" col-12 col-lg-6">
-      <div class="right-cntn">
-        <h2 class="title2">DJI Mavic 3 Pro</h2>
-      <p>
-        The DJI Mavic 3 Pro is a flagship drone known for its exceptional camera capabilities and advanced flight features. It boasts a triple-camera system, including a 4/3 CMOS Hasselblad main camera, a medium telephoto, and a long-range telephoto lens, allowing for versatile aerial photography and videography... 
-      </p>
-      </div>
-      
+                                <button class="edit-btn">Edit Profile</button>
 
-      <div class="price-list">
-        <span>1-3 Days : <del>800</del> 399 / Per day </span>
-        <br>
-        <span>3-7 Days : <del>700</del> 349 / Per day </span>
-        <br>
-        <span>8+ <del>600</del> 299 Days :  / Per day </span>
-      </div>
 
-      <h5 class="title5">₹399 / Per day</h5>
-
-      <div class="rating  d-flex align-items-center">
-        <span>4.5</span>
-      <div class="reting">
-        <img src="./assets/star group.png" alt="">
-      </div>
-        <span>(35)</span>
-      </div>
-
-      <a class="book-btn" href="./form.html">Book Now</a>
-
-      <h5 class="title5">Features</h5>
-      <div class="features" >
-        <div class="features-item d-flex align-items-center">
-          <div class="green-circle"></div>
-        <p>4K/60fps Camera</p>
-        </div>
-        
-        <div class="features-item d-flex align-items-center">
-          <div class="green-circle"></div>
-        <p>30 min flight time</p>
-        </div>
-
-        <div class="features-item d-flex align-items-center">
-          <div class="green-circle"></div>
-        <p>7 km range</p>
-        </div>
-
-        <div class="features-item d-flex align-items-center">
-          <div class="green-circle"></div>
-        <p>5-direction sensing</p>
-        </div>
-      </div>
-    
-    </div>
-
-  </div>
-
-  <div class="black-line"></div>
-</div>
-  <!-- Related Products -->
-  <h4 class="mt-5 mb-4">Related Products</h4>
-
-  <div class="row g-4">
-    <div class="col-12 col-md-6 col-lg-3">
-      <div class="drone-card">
-        <img src="r1.jpg">
-        <div class="p-3">
-          <h6>Autel Robotics</h6>
-          <small>1K+ booked in past month</small>
-          <p>₹349 / Per day</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-12 col-md-6 col-lg-3">
-      <div class="drone-card">
-        <img src="r2.jpg">
-        <div class="p-3">
-          <h6>DJI Air 3</h6>
-          <small>1K+ booked in past month</small>
-          <p>₹340 / Per day</p>
-        </div>
-      </div>
-    </div>
-
-        
-            </div>
-        
-    </section>
-     <!-- FOOTER-SECTION -->
+                            </div>
+</div></div>
+                      </div>      
+                        
+                    </div>
+                </div>
+            </section>
+          
+    <!-- FOOTER-SECTION -->
     <footer class="footer-sec">
       <div class="container">
         <div class="footer-up">
