@@ -13,33 +13,15 @@
 .nav-container {
   max-width: 1283px !important;
 }
-
-.title1 {
-  font-size: 115px;
-  font-weight: 500;
-  font-family: var(--Alexandria);
-  color: #ffffff;
+.title5{
+    font-size: 24px;
+    font-weight: bold;
+    font-family: var(--Alexandria);
 }
-.title2 {
-  font-size: 44px;
-  font-weight: 500;
-  font-family: var(--Alexandria);
-}
-
-.title3 {
-  font-size: 18px;
-  font-weight: 500;
-  font-family: var(--Alexandria);
-}
-.title4 {
-  font-size: 32px;
-  font-weight: bold;
-  font-family: var(--Alexandria);
-}
-.title6 {
-  font-size: 24px;
-  font-weight: 500;
-  font-family: var(--Alexandria);
+.title6{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: var(--Alexandria);
 }
 p {
   font-size: 16px;
@@ -85,49 +67,84 @@ p {
   font-weight: bold;
 }
 
-/*  CONTACT BANNER SECTION  */
+/* DRONE DETAILS SECTION */
 
-.bnr-sec {
-  background: url("../assets/contact-bnr-bg.png") no-repeat center/cover;
-  min-height: 50vh;
-  display: flex;
-  align-items: center;
+.drone-details-sec{
+    padding: 75px 0;
 }
 
-/* Get In Touch Section */
 
-.get-in-touch-sec {
-  padding: 100px 0;
-}
 
-.ditails-contact{
-  display: flex;
-  align-items: center;
-  margin-top: 48px;
-}
-
-.contact-details-cntn{
-  margin-left: 18px;
-}
-form {
-  background: #f2f2f2;
-  box-shadow: 0 4px 7px rgba(0, 0, 0, 0.2);
-  border-radius: 50px;
-  padding: 44px 43.5px;
+.tap-btn{
+border: none;
+padding-block: 20px;
+border-radius: 9px;
+background: #EEF7D5;
+color: #3D3D3D;
+font-family: var(--Alexandria);
+font-size: 20px;
+font-weight: 600;
 }
 
-.input-text {
-  font-family: "Arial";
-  color: #7c7b7b;
-  font-weight: 400;
-  font-size: 14px;
+
+
+/* DRONES SECTION */
+
+.drones-sec{
+    padding: 100px 0;
 }
-.btn {
-  background: var(--primary-color);
-  margin-top: 43px;
-  color: #f1f1f1;
+.sidebar-filters{
+    padding: 29px 31px;
+    background: rgba(255, 255, 255,50%);
+    box-shadow: 0 4px 7px rgba(0, 0, 0, 0.2);
+    border-radius: 21px;
 }
 
+.sidebar-line{
+    height: 0.7px;
+    margin: 17px 0 21px;
+    background: #939393;
+
+}
+
+.drone-card{
+  background: #FEFEFE;
+  border: 1px solid #EFF1E9;
+  border-radius: 21px;
+  padding: 29px ;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+  margin-bottom: 33px;
+}
+
+.img-card > img{
+  width: 100%;
+  height: 208px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+.img-cntn .title6{
+    margin-top: 22px;
+}
+.shine-img{
+  position: relative;
+  overflow: hidden;
+}
+.shine-img::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(335deg, transparent, rgba(255, 255, 255, 0.25), transparent);
+    animation: shineMove 3s infinite;
+}
+
+@keyframes shineMove {
+  100%{
+    left: 150%;
+  }
+}
 /* FOOTER-SECTION */
 
 .footer-sec {
@@ -279,26 +296,9 @@ form {
     margin-top: 20px;
   }
 }
-
-@media screen and (max-width: 992px) {
-  form .title4 {
-    font-size: 25px;
-  }
-  .left-cntn{
-    margin: auto;
-  }
-}
-
 @media screen and (max-width: 768px) {
   .col-4 {
     width: 100%;
-  }
-  .bnr-cntn .title1 {
-    font-size: 100px;
-  }
-
-  form {
-    margin-top: 20px;
   }
 }
 
@@ -310,19 +310,7 @@ form {
   .footer-up {
     text-align: center;
   }
-  .title2 {
-    font-size: 25px;
-  }
-  .bnr-cntn .title1 {
-    font-size: 72px;
-  }
-
-  .left-cntn p{
-    font-size: 13px;
-  }
 }
-  
-
 @media screen and (max-width: 375px) {
   .ftr-cntn p,
   .last-col p {
@@ -331,8 +319,5 @@ form {
   .ftr-contact span,
   .ftr-link li {
     font-size: 14px;
-  }
-  form .title4 {
-    font-size: 21px;
   }
 }

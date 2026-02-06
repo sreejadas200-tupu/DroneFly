@@ -325,6 +325,76 @@ p {
 
 /* HOW IT WORKS Section */
 
+.it-works-sec{
+  padding: 100px 0;
+}
+.middle-drone-img{
+  max-width: 466px;
+  margin-top: 105px;
+}
+
+.middle-drone-img > img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.steps-wrapper{
+  position:relative;
+  height:650px;
+}
+
+.drone-img{
+  position:absolute;
+  left:50%;
+  top:45%;
+  transform:translate(-50%,-50%);
+  width:320px;
+  z-index:2;
+}
+
+/* Bubble design */
+.circle{
+  position:absolute;
+  width:247px;
+  padding:35px 25px;
+  background:#eef5e9;
+  border-radius:55% 45% 60% 40% / 45% 60% 40% 55%;
+  text-align:center;
+  /* box-shadow:0 10px 25px rgba(0,0,0,0.08); */
+}
+
+.circle h5{
+  font-weight:600;
+  margin-top:10px;
+}
+
+.circle p{
+  font-size:14px;
+  color:#666;
+}
+
+.number{
+  position:absolute;
+  top:-83px;
+  left:50%;
+  transform:translateX(-50%);
+  font-size:60px;
+  color:#dfe8d8;
+  font-weight:700;
+}
+
+
+
+.circle .circle1{
+
+ top:-100px; 
+ left:8%; 
+}
+/* .circle .circle2{ 
+  position: absolute;
+  bottom:80px; 
+  left:12%; }
 /* Our Successful Works Section */
 
 .Our-Successful-Works-sec {
