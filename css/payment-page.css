@@ -189,8 +189,13 @@ p {
 @media screen and (max-width: 1200px) {
   .offcanvas {
     flex-direction: column;
-    background: #b3c18b;
-    backdrop-filter: blur(20px);
+    background: url('../assets/offcanvas-bg.jpg') no-repeat center/cover;
+    backdrop-filter: blur(50px);
+ 
+  }
+
+  .nav-link , .active{
+    color: #f1f1f1;
   }
 
   .navbar-toggler {

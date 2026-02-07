@@ -31,6 +31,12 @@
   font-weight: 500;
   font-family: var(--Alexandria);
 }
+
+.title5{
+  font-size: 24px;
+  font-weight: 500;
+  font-family: var(--Alexandria);
+}
 p {
   font-size: 16px;
   font-weight: 400;
@@ -161,40 +167,22 @@ margin: auto;
   object-fit: cover;
 }
 
-.steps-wrapper{
+.works-wrapper{
   position:relative;
   height:650px;
 }
 
-.drone-img{
-  position:absolute;
-  left:50%;
-  top:45%;
-  transform:translate(-50%,-50%);
-  width:320px;
-  z-index:2;
-}
 
-/* Bubble design */
 .circle{
   position:absolute;
   width:247px;
-  padding:35px 25px;
-  background:#eef5e9;
+  padding:60px 13px;
+  background:#e8efd7;
   border-radius:55% 45% 60% 40% / 45% 60% 40% 55%;
   text-align:center;
   /* box-shadow:0 10px 25px rgba(0,0,0,0.08); */
 }
 
-.circle h5{
-  font-weight:600;
-  margin-top:10px;
-}
-
-.circle p{
-  font-size:14px;
-  color:#666;
-}
 
 .number{
   position:absolute;
@@ -202,24 +190,39 @@ margin: auto;
   left:50%;
   transform:translateX(-50%);
   font-size:60px;
-  color:#dfe8d8;
+  background:linear-gradient(to bottom,#DDFB8D,#6A7360);
+   -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-weight:700;
 }
-
-
-
-.circle .circle1{
-
- top:-100px; 
- left:8%; 
+.circle1{
+top: 40px; 
+left: 10px;
 }
-/* .circle .circle2{ 
-  position: absolute;
+
+.circle2{ 
+  bottom: 64px; 
+  left: 120px; 
+}
+
+.circle3{ 
+  bottom:0; 
+  left:50%; 
+  transform:translateX(-50%); 
+}
+
+.circle4{ 
   bottom:80px; 
-  left:12%; }
-.circle3{ bottom:0; left:50%; transform:translateX(-50%); }
-.circle4{ bottom:80px; right:12%; }
-.circle5{ top:0; right:8%; } */
+  right:12%;
+ }
+
+.circle5{ 
+  top:32px; 
+  right:0%; 
+}
+
+
+
 
 /* FOOTER-SECTION */
 
@@ -323,8 +326,13 @@ margin: auto;
 @media screen and (max-width: 1200px) {
   .offcanvas {
     flex-direction: column;
-    background: #b3c18b;
-    backdrop-filter: blur(20px);
+    background: url('../assets/offcanvas-bg.jpg') no-repeat center/cover;
+    backdrop-filter: blur(50px);
+ 
+  }
+
+  .nav-link , .active{
+    color: #f1f1f1;
   }
 
   .navbar-toggler {
