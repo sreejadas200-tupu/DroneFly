@@ -67,16 +67,10 @@ body{
     font-weight: bold;
     
 }
-#firstname,
-#lastname{
-    border-radius: 10px;
-    max-width: 185px;
-    padding-block: 15px;
-    padding-left: 23px;
-    border: none;
+
     
-}
 #useremail,
+#fullname,
 #password,
 #con-password{
     width: 400px;
@@ -123,6 +117,7 @@ body{
 }
 
 @media screen and (max-width:768px){
+    #fullname,
     #useremail,
 #password,.signup-btn,#con-password{
     width:350px;
@@ -134,12 +129,14 @@ body{
 }
 
 @media screen and (max-width:425px){
+    #fullname,
     #useremail,
 #password,.signup-btn,#con-password{
     width:320px;
 }
 }
 @media screen and (max-width:376px){
+    #fullname,
     #useremail,
 #password,.signup-btn,#con-password{
     width:299px;
@@ -151,6 +148,7 @@ body{
     font-size: 11px;
 }
 }@media screen and (max-width:321px){
+    #fullname,
     #useremail,
 #password,.signup-btn,#con-password{
     width:250px;

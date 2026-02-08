@@ -130,6 +130,11 @@ p {
   margin-right: 15px;
 }
 
+.tertiary-btn:hover{
+  background: var(--primary-color);
+  color: #ffffff;
+}
+
 .primary-btn {
   padding: 14.5px 30.5px;
   border-radius: 10px;
@@ -140,7 +145,7 @@ p {
 }
 
 .primary-btn:hover{
- background-color:#3d5306;
+ background-color:#7c9e26;
    
 }
 /* BANNER SECTION */
@@ -371,7 +376,7 @@ p {
   transform:translateX(-50%);
   font-size:60px;
   background:linear-gradient(to bottom,#DDFB8D,#6A7360);
-   -webkit-background-clip: text;
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight:700;
 }

@@ -384,6 +384,13 @@ left: 10px;
   .drone-card{
     margin-top: 15px;
   }
+    .circle2{
+    left: 24px;
+  }
+
+  .circle4{
+    right: 8%;
+  }
 }
 @media screen and (max-width: 768px){
   .col-4 {
@@ -408,7 +415,14 @@ left: 10px;
    .bnr-cntn .title1{
         font-size: 72px;
     }
+      .circle2{
+    left: -4px;
+  }
+  .circle4{
+    right: 1%;
+  }
 }
+
 
 @media screen and (max-width: 375px){
   .ftr-cntn p  , .last-col p{
