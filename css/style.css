@@ -310,6 +310,10 @@ p {
   margin-bottom: 20px;
 }
 
+.pilot-cntn p{
+  margin-bottom: 64px;
+}
+
 .pilot-card {
   max-width: 367px;
   border-bottom-left-radius: 30px;
@@ -408,25 +412,26 @@ left: 10px;
 }
 .our-works-cntn .title2 {
   text-align: center;
+  margin-bottom: 55px;
 }
 .our-work-video {
   max-width: 893px;
   margin: 0 auto;
-  /* position: relative; */
+  position: relative;
 }
 .our-work-video > img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
-/* .video-btn {
+.video-btn img{
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 63px;
   height: 63px;
-} */
+}
 
 /*  Frequently Asked Questions */
 
@@ -671,6 +676,14 @@ left: 10px;
   .title1 {
     font-size: 100px;
   }
+
+  .circle2{
+    left: 24px;
+  }
+
+  .circle4{
+    right: 8%;
+  }
 }
 @media screen and (max-width: 768px) {
   /* Welcome To Drone Fly section */
@@ -747,6 +760,13 @@ left: 10px;
   .testimonials-sec .row{
     flex-wrap: wrap-reverse;
   }
+
+  .circle2{
+    left: -4px;
+  }
+  .circle4{
+    right: 1%;
+  }
 }
 @media screen and (max-width: 576px) {
   .title2 {
@@ -758,6 +778,10 @@ left: 10px;
   .outline-text,
   .title1 {
     font-size: 70px;
+  }
+  .video-btn img{
+    width: 50px;
+    height: 50px;
   }
 
   .col-2 , .col-3{
