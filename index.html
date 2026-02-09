@@ -29,6 +29,14 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
+<div id="luxy">
+    <!-- From Uiverse.io by alexruix --> 
+     <div class="loader-wrapper">
+      <div class="loader"></div>
+     </div>
+
+
+    
     <!-- HEADER SECTION -->
 
     <header class="hdr-sec" >
@@ -735,7 +743,7 @@
           <span>© 2025 DroneFly Drone Services. All rights reserved <a href="">Privacy Policy</a> <a href="">Term & Service</a></span>
       </div>
     </footer>
-
+</div>
     <!-- AOS JS -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
@@ -756,6 +764,22 @@
 <script src="./js/script.js"></script>
 
 <script> AOS.init();</script>
+
+<div class="cursor-dot"></div>
+<div class="cursor-ring"></div>
+
+<script>
+const dot = document.querySelector(".cursor-dot");
+const ring = document.querySelector(".cursor-ring");
+
+document.addEventListener("mousemove", (e) => {
+  dot.style.left = e.clientX + "px";
+  dot.style.top = e.clientY + "px";
+
+  ring.style.left = e.clientX + "px";
+  ring.style.top = e.clientY + "px";
+});
+</script>
   </body>
 </html>
 

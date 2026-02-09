@@ -5,6 +5,33 @@
 ul{
   padding-left: 0;
 }
+body{
+  cursor: none;
+}
+/* center fix */
+.cursor-dot,
+.cursor-ring{
+  position: fixed;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  z-index: 99999;
+}
+
+.cursor-dot{
+  width:20px;
+  height:20px;
+  background:#888b84;
+  border-radius:50%;
+}
+
+.cursor-ring{
+  width:55px;
+  height:55px;
+  border:2px solid #a8c788;
+  border-radius:50%;
+}
 :root {
   --nav-link-color: #6b6b6b;
   --primary-color: #9acc20;

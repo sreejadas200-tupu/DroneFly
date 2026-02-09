@@ -43,8 +43,3 @@ const marqueeEl = document.querySelector('.marquee-swiper');
 marqueeEl.addEventListener('mouseenter', () => {
   swiper.autoplay.stop(); // ✅ Corrected this
 });
-
-marqueeEl.addEventListener('mouseleave', () => {
-  swiper.autoplay.start(); // ✅ And this
-});
-
