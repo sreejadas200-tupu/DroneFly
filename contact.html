@@ -1,15 +1,21 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DroneFly</title>
 
     <!-- FONT AWESOME CND -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
-     <!-- AOS CSS -->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 
     <!-- BOOTSTRAP CSS-->
     <link
@@ -21,42 +27,48 @@
 
     <!-- SWIPER CSS -->
     <link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
-/>
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
+    />
 
-<!-- global css -->
+    <!-- global css -->
     <link rel="stylesheet" href="./css/global.css" />
 
     <!-- CUSTOM CSS -->
     <link rel="stylesheet" href="./css/contact.css" />
-
-</head>
-<body>
-    
+  </head>
+  <body>
     <!-- HEADER SECTION -->
 
     <header class="hdr-sec">
-      <nav class="navbar navbar-expand-lg">
+      <nav class="navbar navbar-expand-xl">
         <div class="nav-container container">
           <div class="nav-logo">
             <div class="navbar-brand">
               <img src="./assets/nav-logo.png" alt="" />
             </div>
           </div>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent"></div>
-          <div class="offcanvas offcanvas-end justify-content-center" tabindex="-1" id="offcanvasExample">
-                        <div class="offcanvas-header me-auto">
-                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas">
-                                <i class="fa-solid fa-xmark"></i>
-                            </button>
-                        </div>
-<ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+          <div
+            class="collapse navbar-collapse"
+            id="navbarSupportedContent"
+          ></div>
+          <div
+            class="offcanvas offcanvas-end justify-content-center"
+            tabindex="-1"
+            id="offcanvasExample"
+          >
+            <div class="offcanvas-header me-auto">
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="offcanvas"
+              >
+                <i class="fa-solid fa-xmark"></i>
+              </button>
+            </div>
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a
-                  class="nav-link"
-                  aria-current="page"
-                  href="./index.html"
+                <a class="nav-link" aria-current="page" href="./index.html"
                   >Home</a
                 >
               </li>
@@ -74,7 +86,7 @@
                 <a class="nav-link active" href="./contact.html">Contact</a>
               </li>
             </ul>
-<div class="nav-btn">
+            <div class="nav-btn">
               <a class="tertiary-btn" href="./login.html">Log in</a>
               <a class="primary-btn" href="./signup.html">Sign up</a>
             </div>
@@ -84,13 +96,10 @@
             class="navbar-toggler"
             type="button"
             data-bs-toggle="offcanvas"
-            data-bs-target="#offcanvasExample">
+            data-bs-target="#offcanvasExample"
+          >
             <span class="navbar-toggler-icon"></span>
           </button>
-          
-            
-            
-          </div>
         </div>
       </nav>
     </header>
@@ -100,87 +109,141 @@
     <section class="bnr-sec">
       <div class="container">
         <div class="bnr-cntn">
-          <h1 class="title1" data-aos="zoom-in" data-aos-duration="1000">Contact Us</h1>
+          <h1 class="title1" data-aos="zoom-in" data-aos-duration="1000">
+            Contact Us
+          </h1>
         </div>
       </div>
     </section>
 
     <!-- Get In Touch Section -->
-   
-    <section class="get-in-touch-sec">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-5 col-md-6 col-12">
-               <div class="left-cntn" data-aos="fade-right" data-aos-duration="1000">
-                <h2 class="title2">Get In Touch</h2>
-                <p>Any question or remarks ? Just write us a message</p>
-                <div class="ditails-contact">
-                  <div class="contact-details-svg ">
-                    <a href="">
-                        <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M25 50C38.8071 50 50 38.8071 50 25C50 11.1929 38.8071 0 25 0C11.1929 0 0 11.1929 0 25C0 38.8071 11.1929 50 25 50Z" fill="#9ACC20"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M25.0002 37.284C24.8877 37.284 24.7564 37.209 24.7001 37.1152C24.1562 36.29 23.481 35.3148 22.6934 34.1707C19.4113 29.4633 14.9102 23.0117 14.9102 19.1107C14.9102 13.5406 19.43 9.00195 25.0002 9.00195C30.5703 9.00195 35.109 13.5406 35.109 19.1107C35.109 23.0305 30.6078 29.4633 27.3258 34.1707C26.5381 35.3148 25.8441 36.29 25.319 37.1152C25.244 37.209 25.1315 37.284 25.0002 37.284ZM25.0002 24.9809C21.5493 24.9809 18.7361 22.1677 18.7361 18.7169C18.7361 15.266 21.5493 12.4528 25.0002 12.4528C28.451 12.4528 31.2642 15.266 31.2642 18.7169C31.2642 22.1677 28.451 24.9809 25.0002 24.9809Z" fill="#FEFEFE"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M25.0004 41.0161C21.437 41.0161 18.5488 38.6718 18.5488 35.8023C18.5488 34.3957 19.2428 33.0641 20.4806 32.0889C21.0432 32.9141 21.6058 33.7205 22.1685 34.5457C22.8437 35.5022 23.5188 36.4587 24.1752 37.4527C24.344 37.734 24.6629 37.9028 25.0004 37.9028C25.338 37.9028 25.6569 37.734 25.8444 37.4527C26.4821 36.4587 27.1572 35.5022 27.8324 34.5457C28.4138 33.7205 28.9764 32.9141 29.5391 32.0889C30.7581 33.0641 31.4708 34.3957 31.4708 35.8023C31.4708 38.6718 28.5638 41.0161 25.0004 41.0161Z" fill="#FEFEFE"/>
-</svg></a></div>
-<div class="contact-details-cntn">
-<h6 class="title6">Office Location</h6>
-<p>132 Drone street , sky view , CA 90210</p>
-</div>  
-                </div>                  
-                    
-                <div class="ditails-contact">
-                 <div class="contact-details-svg">
-                    <a href=""><svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M42.675 7.31966C32.9104 -2.44195 17.0813 -2.43961 7.31966 7.32503C-2.44195 17.0897 -2.43961 32.9187 7.32503 42.6804C17.0897 52.442 32.9187 52.4396 42.6804 42.675C45.0015 40.3532 46.8425 37.5969 48.0984 34.5636C49.3544 31.5302 50.0005 28.2793 50 24.9962C49.9995 21.7132 49.3524 18.4624 48.0955 15.4294C46.8387 12.3965 44.9968 9.64077 42.675 7.31966ZM37.8616 34.8247L37.8583 34.828V34.8197L36.5916 36.078C35.7861 36.8937 34.7839 37.4878 33.6818 37.8031C32.5797 38.1184 31.4149 38.1442 30.2999 37.878C28.0153 37.2665 25.8434 36.2931 23.8666 34.9947C22.03 33.821 20.3281 32.4489 18.7916 30.903C17.3779 29.4996 16.1077 27.9586 14.9999 26.303C13.7882 24.5216 12.8291 22.5809 12.1499 20.5363C11.7682 19.3587 11.7219 18.098 12.0163 16.8955C12.3106 15.693 12.934 14.5962 13.8166 13.728L15.2999 12.2447C15.7123 11.8305 16.3824 11.829 16.7966 12.2414L16.7999 12.2447L21.4832 16.928C21.8975 17.3404 21.8989 18.0106 21.4865 18.4247L21.4832 18.428L18.7332 21.178C17.9442 21.9585 17.8449 23.1987 18.4999 24.0947C19.4946 25.4597 20.5952 26.7443 21.7916 27.9364C23.1255 29.2761 24.5756 30.4948 26.1249 31.5781C27.0201 32.2025 28.2338 32.0973 29.0082 31.3281L31.6665 28.6281C32.0789 28.2139 32.749 28.2124 33.1632 28.6248L33.1665 28.6281L37.8582 33.3281C38.2725 33.7404 38.274 34.4104 37.8616 34.8247Z" fill="#9ACC20"/>
-</svg></a></div>
-   <div class="contact-details-cntn">                    
-<h6 class="title6">Give Us a Call</h6>
-<p>+2 (555) 123-4567</p>
-</div> 
-                </div>
-                                    
-                <div class="ditails-contact">
-                  <div class="contact-details-svg">
-                    <a href=""><svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M25 50C38.8071 50 50 38.8071 50 25C50 11.1929 38.8071 0 25 0C11.1929 0 0 11.1929 0 25C0 38.8071 11.1929 50 25 50Z" fill="#9ACC20"/>
-<path d="M25.041 23.7305L37.6523 16.0586C37.1245 15.6038 36.4506 15.3542 35.7539 15.3555H14.248C13.9202 15.3552 13.5946 15.4103 13.2852 15.5186L25.041 23.7305Z" fill="white"/>
-<path d="M25.5547 25.9121C25.3779 26.0201 25.1734 26.0742 24.9663 26.0678C24.7592 26.0614 24.5585 25.9947 24.3887 25.876L11.6348 16.9678C11.4324 17.3718 11.3274 17.8176 11.3281 18.2695V31.7305C11.3281 32.5046 11.6357 33.2471 12.1831 33.7945C12.7305 34.3419 13.4729 34.6494 14.2471 34.6494H35.7529C36.5271 34.6494 37.2695 34.3419 37.8169 33.7945C38.3643 33.2471 38.6719 32.5046 38.6719 31.7305V18.2695C38.6716 18.1609 38.6655 18.0523 38.6533 17.9443L25.5547 25.9121Z" fill="white"/>
-</svg></a></div>
-<div class="contact-details-cntn">
-<h6 class="title6">Email Here</h6>
-<p>info@dronefly.com</p>
-</div> 
-                </div>    
-                
-                                   
-     </div>
-                </div>               
- <div class="col-lg-6 col-md-6 col-12">
-    
-    <form>
-<h4 class=" title4 text-center mb-4">Send Us a Message</h4>
 
- <label>Full Name</label>
- <br>
-            <input type="text"  placeholder="Enter your name">
-            <br>
-            <label>Email</label>
-            <br>
-            <input type="email" placeholder="Enter your email">
-            <br>
-            <label >Phone</label>
-            <br>
-            <input type="text" placeholder="Your phone number">
-            <br>
-             <label >Message</label>
-             <br>
-            <textarea  class="textarea" rows="4" placeholder="Enter your message"></textarea>
-            <button class="btn w-100">Send</button>
-    </form>
- </div>               
-               
+    <section class="get-in-touch-sec">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5 col-md-6 col-12">
+            <div
+              class="left-cntn"
+              data-aos="fade-right"
+              data-aos-duration="1000"
+            >
+              <h2 class="title2">Get In Touch</h2>
+              <p>Any question or remarks ? Just write us a message</p>
+              <div class="ditails-contact">
+                <div class="contact-details-svg">
+                  <a href="">
+                    <svg
+                      width="50"
+                      height="50"
+                      viewBox="0 0 50 50"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M25 50C38.8071 50 50 38.8071 50 25C50 11.1929 38.8071 0 25 0C11.1929 0 0 11.1929 0 25C0 38.8071 11.1929 50 25 50Z"
+                        fill="#9ACC20"
+                      />
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M25.0002 37.284C24.8877 37.284 24.7564 37.209 24.7001 37.1152C24.1562 36.29 23.481 35.3148 22.6934 34.1707C19.4113 29.4633 14.9102 23.0117 14.9102 19.1107C14.9102 13.5406 19.43 9.00195 25.0002 9.00195C30.5703 9.00195 35.109 13.5406 35.109 19.1107C35.109 23.0305 30.6078 29.4633 27.3258 34.1707C26.5381 35.3148 25.8441 36.29 25.319 37.1152C25.244 37.209 25.1315 37.284 25.0002 37.284ZM25.0002 24.9809C21.5493 24.9809 18.7361 22.1677 18.7361 18.7169C18.7361 15.266 21.5493 12.4528 25.0002 12.4528C28.451 12.4528 31.2642 15.266 31.2642 18.7169C31.2642 22.1677 28.451 24.9809 25.0002 24.9809Z"
+                        fill="#FEFEFE"
+                      />
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M25.0004 41.0161C21.437 41.0161 18.5488 38.6718 18.5488 35.8023C18.5488 34.3957 19.2428 33.0641 20.4806 32.0889C21.0432 32.9141 21.6058 33.7205 22.1685 34.5457C22.8437 35.5022 23.5188 36.4587 24.1752 37.4527C24.344 37.734 24.6629 37.9028 25.0004 37.9028C25.338 37.9028 25.6569 37.734 25.8444 37.4527C26.4821 36.4587 27.1572 35.5022 27.8324 34.5457C28.4138 33.7205 28.9764 32.9141 29.5391 32.0889C30.7581 33.0641 31.4708 34.3957 31.4708 35.8023C31.4708 38.6718 28.5638 41.0161 25.0004 41.0161Z"
+                        fill="#FEFEFE"
+                      /></svg
+                  ></a>
+                </div>
+                <div class="contact-details-cntn">
+                  <h6 class="title6">Office Location</h6>
+                  <p>132 Drone street , sky view , CA 90210</p>
+                </div>
+              </div>
+
+              <div class="ditails-contact">
+                <div class="contact-details-svg">
+                  <a href=""
+                    ><svg
+                      width="50"
+                      height="50"
+                      viewBox="0 0 50 50"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M42.675 7.31966C32.9104 -2.44195 17.0813 -2.43961 7.31966 7.32503C-2.44195 17.0897 -2.43961 32.9187 7.32503 42.6804C17.0897 52.442 32.9187 52.4396 42.6804 42.675C45.0015 40.3532 46.8425 37.5969 48.0984 34.5636C49.3544 31.5302 50.0005 28.2793 50 24.9962C49.9995 21.7132 49.3524 18.4624 48.0955 15.4294C46.8387 12.3965 44.9968 9.64077 42.675 7.31966ZM37.8616 34.8247L37.8583 34.828V34.8197L36.5916 36.078C35.7861 36.8937 34.7839 37.4878 33.6818 37.8031C32.5797 38.1184 31.4149 38.1442 30.2999 37.878C28.0153 37.2665 25.8434 36.2931 23.8666 34.9947C22.03 33.821 20.3281 32.4489 18.7916 30.903C17.3779 29.4996 16.1077 27.9586 14.9999 26.303C13.7882 24.5216 12.8291 22.5809 12.1499 20.5363C11.7682 19.3587 11.7219 18.098 12.0163 16.8955C12.3106 15.693 12.934 14.5962 13.8166 13.728L15.2999 12.2447C15.7123 11.8305 16.3824 11.829 16.7966 12.2414L16.7999 12.2447L21.4832 16.928C21.8975 17.3404 21.8989 18.0106 21.4865 18.4247L21.4832 18.428L18.7332 21.178C17.9442 21.9585 17.8449 23.1987 18.4999 24.0947C19.4946 25.4597 20.5952 26.7443 21.7916 27.9364C23.1255 29.2761 24.5756 30.4948 26.1249 31.5781C27.0201 32.2025 28.2338 32.0973 29.0082 31.3281L31.6665 28.6281C32.0789 28.2139 32.749 28.2124 33.1632 28.6248L33.1665 28.6281L37.8582 33.3281C38.2725 33.7404 38.274 34.4104 37.8616 34.8247Z"
+                        fill="#9ACC20"
+                      /></svg
+                  ></a>
+                </div>
+                <div class="contact-details-cntn">
+                  <h6 class="title6">Give Us a Call</h6>
+                  <p>+2 (555) 123-4567</p>
+                </div>
+              </div>
+
+              <div class="ditails-contact">
+                <div class="contact-details-svg">
+                  <a href=""
+                    ><svg
+                      width="50"
+                      height="50"
+                      viewBox="0 0 50 50"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M25 50C38.8071 50 50 38.8071 50 25C50 11.1929 38.8071 0 25 0C11.1929 0 0 11.1929 0 25C0 38.8071 11.1929 50 25 50Z"
+                        fill="#9ACC20"
+                      />
+                      <path
+                        d="M25.041 23.7305L37.6523 16.0586C37.1245 15.6038 36.4506 15.3542 35.7539 15.3555H14.248C13.9202 15.3552 13.5946 15.4103 13.2852 15.5186L25.041 23.7305Z"
+                        fill="white"
+                      />
+                      <path
+                        d="M25.5547 25.9121C25.3779 26.0201 25.1734 26.0742 24.9663 26.0678C24.7592 26.0614 24.5585 25.9947 24.3887 25.876L11.6348 16.9678C11.4324 17.3718 11.3274 17.8176 11.3281 18.2695V31.7305C11.3281 32.5046 11.6357 33.2471 12.1831 33.7945C12.7305 34.3419 13.4729 34.6494 14.2471 34.6494H35.7529C36.5271 34.6494 37.2695 34.3419 37.8169 33.7945C38.3643 33.2471 38.6719 32.5046 38.6719 31.7305V18.2695C38.6716 18.1609 38.6655 18.0523 38.6533 17.9443L25.5547 25.9121Z"
+                        fill="white"
+                      /></svg
+                  ></a>
+                </div>
+                <div class="contact-details-cntn">
+                  <h6 class="title6">Email Here</h6>
+                  <p>info@dronefly.com</p>
+                </div>
+              </div>
             </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-12">
+            <form>
+              <h4 class="title4 text-center mb-4">Send Us a Message</h4>
+
+              <label>Full Name</label>
+              <br />
+              <input type="text" placeholder="Enter your name" />
+              <br />
+              <label>Email</label>
+              <br />
+              <input type="email" placeholder="Enter your email" />
+              <br />
+              <label>Phone</label>
+              <br />
+              <input type="text" placeholder="Your phone number" />
+              <br />
+              <label>Message</label>
+              <br />
+              <textarea
+                class="textarea"
+                rows="4"
+                placeholder="Enter your message"
+              ></textarea>
+              <button class="btn w-100">Send</button>
+            </form>
+          </div>
         </div>
+      </div>
     </section>
     <!-- FOOTER-SECTION -->
     <footer class="footer-sec">
@@ -297,7 +360,6 @@
             </div>
 
             <div class="col-3">
-              
               <div class="ftr-heading">Quick Limits</div>
               <ul class="ftr-link">
                 <li><a href="">Home</a></li>
@@ -321,29 +383,38 @@
 
             <div class="col-3">
               <div class="ftr-heading">Stay Updated</div>
-              <div class="last-col"><p>
-                Subscribe to our newsletter to receive the latest updates and
-                promotions.
-              </p>
-              <input type="email" name="useremail" id="useremail" placeholder="Your email address">
-              <br>
-              <button class="subscribe-btn">Subscribe</button>
-            </div>
-              
+              <div class="last-col">
+                <p>
+                  Subscribe to our newsletter to receive the latest updates and
+                  promotions.
+                </p>
+                <input
+                  type="email"
+                  name="useremail"
+                  id="useremail"
+                  placeholder="Your email address"
+                />
+                <br />
+                <button class="subscribe-btn">Subscribe</button>
+              </div>
             </div>
           </div>
         </div>
 
         <div class="line"></div>
         <div class="footer-down">
-          <span>© 2025 DroneFly Drone Services. All rights reserved <a href="">Privacy Policy</a> <a href="">Term & Service</a></span>
+          <span
+            >© 2025 DroneFly Drone Services. All rights reserved
+            <a href="">Privacy Policy</a> <a href="">Term & Service</a></span
+          >
+        </div>
       </div>
     </footer>
 
     <!-- AOS JS -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
-     <!-- BOOTSTRAP JS -->
+    <!-- BOOTSTRAP JS -->
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
@@ -358,26 +429,15 @@
     <!-- SWIPER JS -->
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+
+    <div class="cursor-dot"></div>
+    <div class="cursor-ring"></div>
     <!-- custom js -->
 
     <script src="./js/script.js"></script>
 
-    <script> AOS.init();</script>
-
-     <div class="cursor-dot"></div>
-<div class="cursor-ring"></div>
-
-<script>
-const dot = document.querySelector(".cursor-dot");
-const ring = document.querySelector(".cursor-ring");
-
-document.addEventListener("mousemove", (e) => {
-  dot.style.left = e.clientX + "px";
-  dot.style.top = e.clientY + "px";
-
-  ring.style.left = e.clientX + "px";
-  ring.style.top = e.clientY + "px";
-});
-</script>
-</body>
+    <script>
+      AOS.init();
+    </script>
+  </body>
 </html>

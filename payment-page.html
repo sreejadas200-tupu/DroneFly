@@ -1,12 +1,18 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DroneFly</title>
 
     <!-- FONT AWESOME CND -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
     <!-- BOOTSTRAP CSS-->
     <link
@@ -18,40 +24,48 @@
 
     <!-- SWIPER CSS -->
     <link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
-/>
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
+    />
 
-<!-- global css -->
+    <!-- global css -->
     <link rel="stylesheet" href="./css/global.css" />
 
     <!-- CUSTOM CSS -->
     <link rel="stylesheet" href="./css/payment-page.css" />
-</head>
-<body>
-     <!-- HEADER SECTION -->
+  </head>
+  <body>
+    <!-- HEADER SECTION -->
 
     <header class="hdr-sec">
-      <nav class="navbar navbar-expand-lg">
+      <nav class="navbar navbar-expand-xl">
         <div class="nav-container container">
           <div class="nav-logo">
             <div class="navbar-brand">
               <img src="./assets/nav-logo.png" alt="" />
             </div>
           </div>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent"></div>
-          <div class="offcanvas offcanvas-end justify-content-center" tabindex="-1" id="offcanvasExample">
-                        <div class="offcanvas-header me-auto">
-                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas">
-                                <i class="fa-solid fa-xmark"></i>
-                            </button>
-                        </div>
-<ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+          <div
+            class="collapse navbar-collapse"
+            id="navbarSupportedContent"
+          ></div>
+          <div
+            class="offcanvas offcanvas-end justify-content-center"
+            tabindex="-1"
+            id="offcanvasExample"
+          >
+            <div class="offcanvas-header me-auto">
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="offcanvas"
+              >
+                <i class="fa-solid fa-xmark"></i>
+              </button>
+            </div>
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a
-                  class="nav-link"
-                  aria-current="page"
-                  href="./index.html"
+                <a class="nav-link" aria-current="page" href="./index.html"
                   >Home</a
                 >
               </li>
@@ -69,10 +83,10 @@
                 <a class="nav-link" href="./contact.html">Contact</a>
               </li>
             </ul>
-<div class="nav-btn">
+            <div class="nav-btn">
               <a class="tertiary-btn" href="./login.html">Log in</a>
               <a class="user-profile" href="./my-profile.html">
-                <img src="./assets/user-profile.png" alt="">
+                <img src="./assets/user-profile.png" alt="" />
               </a>
             </div>
           </div>
@@ -81,31 +95,27 @@
             class="navbar-toggler"
             type="button"
             data-bs-toggle="offcanvas"
-            data-bs-target="#offcanvasExample">
+            data-bs-target="#offcanvasExample"
+          >
             <span class="navbar-toggler-icon"></span>
           </button>
-          
-            
-            
-          </div>
         </div>
       </nav>
     </header>
 
-
     <!-- PAYMENT METHOD SECTION -->
 
     <section class="payment-sec">
-        <div class="container">
-            <div class="heading">
-                <h2 class="title2">Payment Method</h2>
-            </div>
-            <div class="row">
-                <div class="col-lg-7">
-                    <div class="payment-card"></div>
-                </div>
-            </div>
+      <div class="container">
+        <div class="heading">
+          <h2 class="title2">Payment Method</h2>
         </div>
+        <div class="row">
+          <div class="col-lg-7">
+            <div class="payment-card"></div>
+          </div>
+        </div>
+      </div>
     </section>
     <!-- FOOTER-SECTION -->
     <footer class="footer-sec">
@@ -222,7 +232,6 @@
             </div>
 
             <div class="col-3">
-              
               <div class="ftr-heading">Quick Limits</div>
               <ul class="ftr-link">
                 <li><a href="">Home</a></li>
@@ -246,25 +255,34 @@
 
             <div class="col-3">
               <div class="ftr-heading">Stay Updated</div>
-              <div class="last-col"><p>
-                Subscribe to our newsletter to receive the latest updates and
-                promotions.
-              </p>
-              <input type="email" name="useremail" id="useremail" placeholder="Your email address">
-              <br>
-              <button class="subscribe-btn">Subscribe</button>
-            </div>
-              
+              <div class="last-col">
+                <p>
+                  Subscribe to our newsletter to receive the latest updates and
+                  promotions.
+                </p>
+                <input
+                  type="email"
+                  name="useremail"
+                  id="useremail"
+                  placeholder="Your email address"
+                />
+                <br />
+                <button class="subscribe-btn">Subscribe</button>
+              </div>
             </div>
           </div>
         </div>
 
         <div class="line"></div>
         <div class="footer-down">
-          <span>© 2025 DroneFly Drone Services. All rights reserved <a href="">Privacy Policy</a> <a href="">Term & Service</a></span>
+          <span
+            >© 2025 DroneFly Drone Services. All rights reserved
+            <a href="">Privacy Policy</a> <a href="">Term & Service</a></span
+          >
+        </div>
       </div>
     </footer>
-     <!-- BOOTSTRAP JS -->
+    <!-- BOOTSTRAP JS -->
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
@@ -282,5 +300,5 @@
     <!-- custom js -->
 
     <script src="./js/script.js"></script>
-</body>
+  </body>
 </html>

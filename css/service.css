@@ -406,17 +406,29 @@ left: 10px;
     width: 50%;
     margin-top: 20px;
   }
+   .circle2{
+    left: -4px;
+  }
+  .circle4{
+    right: 7%;
+  }
 }
 @media screen and (max-width:992px){
   .drone-card{
     margin-top: 15px;
   }
-    .circle2{
-    left: 24px;
+  .circle1{
+    left: -60px;
   }
-
+  .circle2{
+    left: -25px;
+  }
   .circle4{
-    right: 8%;
+    right: -5%;
+  }
+  .circle5{
+    top: 42px;
+    right: -54px;
   }
 }
 @media screen and (max-width: 768px){
@@ -426,6 +438,50 @@ left: 10px;
   .bnr-cntn .title1{
         font-size: 100px;
     }
+   .sub-cntn{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+  }
+  .number{
+    font-size: 40px;
+    top: 0;
+    left: 0;
+  }
+ .circle{
+  position: relative;
+  width: 50%;
+  padding: 0 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 20px;
+}
+ .circle .title5{
+  font-size: 16px;
+ }
+ .circle1{
+  top: 0;
+  left: 0;
+ }
+ .circle2{
+  left: 0;
+  bottom: 0;
+ }
+ .circle3{
+transform: none;
+left: 0;
+ }
+ .circle4{
+  right: 0;
+  bottom: 0;
+}
+.circle5{
+  top: 0;
+} 
+ .sub-cntn {
+    min-height: 600px;
+  }
 }
 
 @media screen and (max-width: 576px) {
@@ -442,12 +498,15 @@ left: 10px;
    .bnr-cntn .title1{
         font-size: 72px;
     }
-      .circle2{
-    left: -4px;
+.number{
+    display: none;
   }
-  .circle4{
-    right: 1%;
+   .sub-cntn{
+    min-height: 500px;
   }
+.footer-sec{
+  padding-top: 100px;
+}
 }
 
 
@@ -458,4 +517,9 @@ left: 10px;
   .ftr-contact span , .ftr-link li{
     font-size: 14px ;
 }
+ .sub-cntn .title5,p{
+    font-size: 13px;
+  }
+
+ 
 }
