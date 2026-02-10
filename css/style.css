@@ -465,7 +465,7 @@ p {
 
 /*  Frequently Asked Questions */
 
-.faq-sec {
+.faq-sec{
   padding: 100px 0;
 }
 .faq-cntn {
@@ -504,6 +504,7 @@ p {
 
 .testimonials-sec {
   /* padding: 100px 0; */
+  margin-top: 100px;
   background: #e6f2c9;
 }
 

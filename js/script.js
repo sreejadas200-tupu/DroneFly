@@ -29,26 +29,6 @@ var mySwiper = new Swiper(".left-side-cntn", {
   },
 });
 
-// var swiper = new Swiper(".mySwiper", {
-//   slidesPerView: "auto",
-//   centeredSlides: true,
-//   spaceBetween: 30,
-//   loop: true,
 
-//   simulateTouch: true,
-//   allowTouchMove: true,
-//   grabCursor: true,
-//   touchStartPreventDefault: false,
-//   touchMoveStopPropagation: false,
-// });
 
-document.addEventListener("DOMContentLoaded", function () {
-  new Swiper(".mySwiper", {
-    slidesPerView: "auto",
-    centeredSlides: true,
-    spaceBetween: 30,
-    loop: true,
-    grabCursor: true,
-    allowTouchMove:true,
-  });
-});
+
